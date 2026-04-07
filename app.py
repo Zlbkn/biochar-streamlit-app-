@@ -96,12 +96,12 @@ if st.button("🚀 开始预测"):
     input_df.fillna(input_df.median(), inplace=True)
 
     feature_cols = [
-        '水分/wt%-ar','灰分/wt%-dry','挥发分/wt%-dry','固定碳/wt%-dry',
-        'C/wt%-dry','H/wt%-dry','O/wt%-dry','N/wt%-dry','S/wt%-dry',
-        '纤维素/wt%-dry','半纤维素/wt%-dry','褐色素/wt%-dry',
-        'HHVMilne MJ/kg-dry','反应时间（min)','加热速率(°C/min)',
-        '进料速率(g/min)','氮气流量（L/min)','热解温度(°C)',
-        'C_H','C_O','H_C','VM_FC','FC_Ash','EnergyDensity'
+        '水分/wt%-ar', '灰分/wt%-dry', '挥发分/wt%-dry', '固定碳/wt%-dry',
+        'C/wt%-dry', 'H/wt%-dry', 'O/wt%-dry', 'N/wt%-dry', 'S/wt%-dry',
+        '纤维素/wt%-dry', '半纤维素/wt%-dry', '褐色素/wt%-dry',
+        'HHVMilne MJ/kg-dry', '反应时间（min）', '加热速率(°C/min)',
+        '进料速率(g/min)', '氮气流量（L/min）', '热解温度(°C)',
+        'C_H', 'C_O', 'H_C', 'VM_FC', 'FC_Ash','EnergyDensity'
     ]
 
     # MinMax归一化
